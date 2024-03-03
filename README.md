@@ -6,7 +6,7 @@
 
 ### other language version
 
-[English version]()
+[English version](profile/readmeOtherVersion/English.md)
 
 ---
 
