@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1ad5333-a3ad-4d7f-9f49-8e0a8c29e13e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/readmeOtherVersion/English.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile/updateLog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/OrderLoader.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/Start.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/AbstractOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/BlankOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/load/JarLoadOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/load/LoadOrder.kt" afterDir="false" />
+    <list default="true" id="a1ad5333-a3ad-4d7f-9f49-8e0a8c29e13e" name="更改" comment="change the link of english version of README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/config/AddOrder.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/workspace/orderset/init.orderset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/OrderLoader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/OrderLoader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/Start.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/Start.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/AbstractOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/AbstractOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/BlankOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/BlankOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/load/JarLoadOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/load/JarLoadOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/load/LoadOrder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/load/LoadOrder.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -79,27 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/code/data/gradle",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.14550781",
-    "project.structure.side.proportion": "0.24336794",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Kotlin",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/data/gradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14550781&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24336794&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Kotlin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\code\orders\src\main\resources\workspace\orderset" />
@@ -118,14 +104,56 @@
       <updated>1709364006881</updated>
       <workItem from="1709364008359" duration="4565000" />
       <workItem from="1709399053459" duration="1700000" />
-      <workItem from="1709439120698" duration="19060000" />
+      <workItem from="1709439120698" duration="20121000" />
+      <workItem from="1709476057722" duration="1308000" />
+      <workItem from="1709527478121" duration="1014000" />
+      <workItem from="1709620389149" duration="5269000" />
+      <workItem from="1709812516094" duration="1283000" />
+      <workItem from="1709918961011" duration="2214000" />
     </task>
+    <task id="LOCAL-00001" summary="今天是正式提交项目到github的一天，虽然才开发了不久，但我查资料真的查了很久，很累，但一切都会值得的！&#10;2024-03-03晚">
+      <created>1709475305463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709475305463</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add LICENSE">
+      <created>1709476596705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709476596705</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change the link of english version of README.md">
+      <created>1709476880790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709476880790</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="今天是正式提交项目到github的一天，虽然才开发了不久，但我查资料真的查了很久，很累，但一切都会值得的！&#10;2024-03-03晚" />
+    <MESSAGE value="add LICENSE" />
+    <MESSAGE value="change the link of english version of README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the link of english version of README.md" />
   </component>
 </project>
