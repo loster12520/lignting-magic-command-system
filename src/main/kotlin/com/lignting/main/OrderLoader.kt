@@ -73,4 +73,10 @@ class OrderLoader {
 
     fun runOrder(orderPrefix: String, orderText: String, orderArgs: List<String>): String =
         runOrder("$orderPrefix::$orderText", orderArgs)
+
+    fun close(){
+        endFunctionList.forEach {
+            it()
+        }
+    }
 }
