@@ -14,7 +14,7 @@ class OrderLoader {
 
     val orders = mutableSetOf<AbstractOrder>()
 
-    val endFunctionList = mutableListOf<() -> Unit>()
+    val endFunctionList = mutableListOf<Pair<String,() -> Unit>>()
 
     init {
         loadOrders()
@@ -76,7 +76,7 @@ class OrderLoader {
 
     fun close(){
         endFunctionList.forEach {
-            it()
+            it.second()
         }
     }
 }
