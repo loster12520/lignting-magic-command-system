@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1ad5333-a3ad-4d7f-9f49-8e0a8c29e13e" name="更改" comment="更新了OrderLoader&#10;2024-03-21-21-33">
+    <list default="true" id="a1ad5333-a3ad-4d7f-9f49-8e0a8c29e13e" name="更改" comment="更新了OrderLoader&#10;2024-03-21-21-57">
+      <change afterPath="$PROJECT_DIR$/src/exampleClient/build.gradle.kts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/config/AddOrder.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/config/Basic.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/config/CreateOrder.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/config/ListOrder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/orders/config/SetOrder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/OrderLoader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/lignting/main/OrderLoader.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -62,27 +66,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/code/data/gradle&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14550781&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.24336794&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Kotlin&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/code/orders/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.14550781",
+    "project.structure.side.proportion": "0.24336794",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Kotlin",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\code\orders\src\main\resources\workspace\orderset" />
@@ -113,7 +118,10 @@
       <workItem from="1710257635061" duration="2000" />
       <workItem from="1710340245063" duration="1183000" />
       <workItem from="1710594688362" duration="6000" />
-      <workItem from="1711027431832" duration="1926000" />
+      <workItem from="1711027431832" duration="3147000" />
+      <workItem from="1711199360119" duration="24000" />
+      <workItem from="1711467632704" duration="148000" />
+      <workItem from="1711548695081" duration="3654000" />
     </task>
     <task id="LOCAL-00001" summary="今天是正式提交项目到github的一天，虽然才开发了不久，但我查资料真的查了很久，很累，但一切都会值得的！&#10;2024-03-03晚">
       <created>1709475305463</created>
@@ -157,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711028032592</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新了OrderLoader&#10;2024-03-21-21-57">
+      <created>1711029434865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711029434865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +197,7 @@
     <MESSAGE value="更新了一点点代码，加了一点点注释&#10;2024-03-09-02-07" />
     <MESSAGE value="把BlankOrder.kt文件给更新了一下，方便后续的编写代码&#10;2024-03-11-01-21" />
     <MESSAGE value="更新了OrderLoader&#10;2024-03-21-21-33" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了OrderLoader&#10;2024-03-21-21-33" />
+    <MESSAGE value="更新了OrderLoader&#10;2024-03-21-21-57" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了OrderLoader&#10;2024-03-21-21-57" />
   </component>
 </project>

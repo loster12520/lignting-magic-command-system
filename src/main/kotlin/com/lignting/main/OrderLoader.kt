@@ -1,6 +1,10 @@
 package com.lignting.main
 
 import com.lignting.orders.AbstractOrder
+import com.lignting.orders.config.AddOrder
+import com.lignting.orders.config.CreateOrder
+import com.lignting.orders.config.ListOrder
+import com.lignting.orders.config.SetOrder
 import com.lignting.orders.load.JarLoadOrder
 import com.lignting.orders.load.LoadOrder
 import java.io.BufferedReader
@@ -14,21 +18,25 @@ class OrderLoader {
 
     val orders = mutableSetOf<AbstractOrder>()
 
-    val endFunctionList = mutableListOf<Pair<String,() -> Unit>>()
+    val endFunctionList = mutableListOf<Pair<String, () -> Unit>>()
 
     init {
         loadOrders()
         initServer(1770)
     }
 
+    private val loadOrderList = listOf(
+        JarLoadOrder::class.java.name,
+        AddOrder::class.java.name,
+        CreateOrder::class.java.name,
+        ListOrder::class.java.name,
+        SetOrder::class.java.name,
+    )
+
     private fun loadOrders() {
         orders.add(LoadOrder()) // 很抱歉这是无法避免的第一条指令，用于加载加载别的指令的指令
         runOrder(
-            "lignting.order",
-            "load",
-            listOf(
-                JarLoadOrder::class.java.name
-            )
+            "lignting.order", "load", loadOrderList
         )
     }
 
@@ -55,26 +63,27 @@ class OrderLoader {
             handleClient(serverSocket.accept())
         }
     }
-    private fun handleClient(socket: Socket){
+
+    private fun handleClient(socket: Socket) {
         thread {
             val input = BufferedReader(InputStreamReader(socket.getInputStream()))
             val output = PrintWriter(socket.getOutputStream())
             while (!socket.isConnected) {
-            try {
-                output.println(runOrder(input.readLine()))
-            } catch (e: RuntimeException) {
-                output.println(e.message)
+                try {
+                    output.println(runOrder(input.readLine()))
+                } catch (e: RuntimeException) {
+                    output.println(e.message)
+                }
+                output.flush()
+                Thread.sleep(100)
             }
-            output.flush()
-            Thread.sleep(100)
-        }
         }
     }
 
     fun runOrder(orderPrefix: String, orderText: String, orderArgs: List<String>): String =
         runOrder("$orderPrefix::$orderText", orderArgs)
 
-    fun close(){
+    fun close() {
         endFunctionList.forEach {
             it.second()
         }

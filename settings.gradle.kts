@@ -9,4 +9,5 @@ pluginManagement {
     
 }
 rootProject.name = "orders"
-
+include("src:exampleClient")
+findProject(":src:exampleClient")?.name = "exampleClient"
